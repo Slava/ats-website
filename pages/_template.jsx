@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router'
 import { prefixLink } from 'gatsby-helpers'
+import { config } from 'config'
 import '../css/reset'
 import '../css/template_styles'
 import '../css/backgrounds'
@@ -68,7 +69,7 @@ module.exports = React.createClass({
          logo.style.opacity = pos > 100 ? 0 : 1;
     },
     render () {
-        const parts = this.props.location.pathname.split('/').filter(x => !!x);
+        const parts = this.props.location.pathname.split('/').filter(x => !!x && x !== config.linkPrefix.substring(1));
         const pageName = parts[parts.length - 1] || 'index';
         return (
             <div>
