@@ -100,6 +100,6 @@ Section 2: Frequency of officer meetings, which can be on a regular basis or as 
 
 # More Information
 
-- [Exec Board](/exec/)
-- [Constitution](/constitution/)
-- [History](/history/)
+- [Exec Board](../exec/)
+- [Constitution](../constitution/)
+- [History](../history/)

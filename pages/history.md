@@ -24,6 +24,6 @@ ATS has a large gamut of cultural and social events throughout the year. Most po
 
 # More Information
 
-- [Exec Board](/exec/)
-- [Constitution](/constitution/)
-- [History](/history/)
+- [Exec Board](../exec/)
+- [Constitution](../constitution/)
+- [History](../history/)

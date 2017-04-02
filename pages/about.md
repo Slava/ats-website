@@ -22,8 +22,20 @@ The best way to get involved is to come to exec meetings. Meetings are usually h
 
 ATS has a large gamut of cultural and social events throughout the year. Most popular events include Xifan Sundays, Mahjong Tournaments, Strait to Taiwan, Lunar New Year's Banquet, and pastry sales. For a complete listing of events, see the events section.
 
+# Other Clubs To See
+
+## Taiwanese Groups At Nearby Colleges
+
+- [Harvard Taiwanese Cultural Society](http://www.hcs.harvard.edu/taiwan/)
+- [Taiwanese Association of Students at Tufts](https://www.facebook.com/TuftsTAST/info)
+- [Yale Taiwanese American Society](http://www.yale.edu/taiwan/)
+- [Brown Taiwan Society](https://mygroups.brown.edu/organization/browntaiwansociety)
+
+## Regional and National Organizations
+- [Intercollegiate Taiwanese Students Association](http://www.itasa.org/)
+
 # More Information
 
-- [Exec Board](/exec/)
-- [Constitution](/constitution/)
-- [History](/history/)
+- [Exec Board](../exec/)
+- [Constitution](../constitution/)
+- [History](../history/)

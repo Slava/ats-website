@@ -87,6 +87,10 @@ module.exports = React.createClass({
                     <div id="content">
                         {this.props.children}
                     </div>
+                    <footer>
+                        <div>MIT Association Of Taiwanese Students 2017</div>
+                        <div>Webdev and design by <a href="http://github.com/Slava">Slava Kim</a></div>
+                    </footer>
                 </div>
 
                 <div id="background" className={`globally-positioned ${pageName}`}>
