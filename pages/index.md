@@ -1,12 +1,3 @@
-# What Is ATS?
-
-The Association of Taiwanese Students consists primarily of undergraduate students with a Taiwanese heritage or an interest in Taiwanese culture.
-
-For many of its members, ATS is a place to make friends with people of different backgrounds, who yet still share the common interest in learning about Taiwanese and Chinese traditions practicing their and cultures. Many members are Taiwanese or Taiwanese American, but new members need not be Taiwanese to join.
-
-Popular events include Lunar New Year's Banquet and Nightmarket; other events range from pastry sales to DDR Tournaments. We have fun in many ways from playing mahjong to chugging boba. For more information, please refer to the about section of the website.
-
-
 # ATS News
 
 ## Slava Kim, Webmaster (2017-04-02 15:00:00):

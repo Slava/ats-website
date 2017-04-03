@@ -2,6 +2,6 @@
 
 Join one of the many ATS families tracing their ancestors decades of MIT alumni.
 
-Pl0x add more text here.
-
 See all members on the interactive [Family Tree Map](http://ats.mit.edu/family).
+
+<div class="familymap"></div>
