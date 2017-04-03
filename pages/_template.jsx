@@ -5,32 +5,10 @@ import { config } from 'config'
 import '../css/reset'
 import '../css/template_styles'
 import '../css/backgrounds'
+import '../css/inline-images'
 import '../css/markdown-theme'
 
 import LogoImg from '../static/logo.png';
-
-function throttle(fn, threshhold, scope) {
-    threshhold || (threshhold = 250);
-    var last,
-        deferTimer;
-    return function () {
-        var context = scope || this;
-
-        var now = +new Date,
-            args = arguments;
-        if (last && now < last + threshhold) {
-            // hold on to it
-            clearTimeout(deferTimer);
-            deferTimer = setTimeout(function () {
-                last = now;
-                fn.apply(context, args);
-            }, threshhold);
-        } else {
-            last = now;
-            fn.apply(context, args);
-        }
-    };
-}
 
 function Nav(props, state) {
     return (
@@ -57,6 +35,9 @@ module.exports = React.createClass({
             children: React.PropTypes.any,
         }
     },
+    componentDidMount () {
+        this.onScroll();
+    },
     onScroll() {
          var pos = document.getElementById('main-content').scrollTop;
          var blurDiv = document.querySelectorAll('.bg-image.blur')[0];
@@ -67,6 +48,8 @@ module.exports = React.createClass({
          header.className = 'globally-positioned ' + (pos > 100 ? 'sticky' : '');
          var logo = document.querySelectorAll('#logo-title')[0];
          logo.style.opacity = pos > 100 ? 0 : 1;
+
+        requestAnimationFrame(this.onScroll);
     },
     render () {
         const parts = this.props.location.pathname.split('/').filter(x => !!x && x !== config.linkPrefix.substring(1));
@@ -83,7 +66,7 @@ module.exports = React.createClass({
                         <subtitle>Association of Taiwanese Students</subtitle>
                     </div>
                 </div>
-                <div id="main-content" className="globally-positioned" onScroll={throttle(this.onScroll, 50, true)}>
+                <div id="main-content" className="globally-positioned">
                     <div id="filler"></div>
                     <div id="content">
                         {this.props.children}

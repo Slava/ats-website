@@ -10,6 +10,8 @@ ATS has events very frequently. We don't require attendance--just come, hang out
 
 ## Xifan Sundays
 
+<div class="inline-image xifan"></div>
+
 Every so often ATS has Xifan Sundays at the McCormick Country Kitchen. Come join us for a nice warm bowl of xifan with your favorite toppings! It's a great way to socialize with fellow members and detress.
 Dim Sum/Hot Pot/Mulan Runs
 
