@@ -1,5 +1,8 @@
 # ATS News
 
+## Charleen Wang, Webmaster:
+Updated exec photos.
+
 ## Slava Kim, Webmaster (2017-04-02 15:00:00):
 Check out the updated ATS website!
 

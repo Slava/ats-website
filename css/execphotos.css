@@ -1,0 +1,83 @@
+.charleen {
+    background: url("../static/exec/charleen.jpg");
+}
+.slava {
+    background: url("../static/exec/slava.jpg");
+}
+.tony {
+    background: url("../static/exec/tony.jpg");
+}
+.janice {
+    background: url("../static/exec/janice.jpg");
+}
+.jocelyn {
+    background: url("../static/exec/jocelyn.jpg");
+}
+.ben {
+    background: url("../static/exec/ben.jpg");
+}
+.bianca {
+    background: url("../static/exec/bianca.jpg");
+}
+.catherine {
+    background: url("../static/exec/catherine.jpg");
+}
+.lillian {
+    background: url("../static/exec/lillian.jpg");
+}
+.gabe {
+    background: url("../static/exec/gabe.jpg");
+}
+.elaine {
+    background: url("../static/exec/elaine.jpg");
+}
+.emily {
+    background: url("../static/exec/emily.jpg");
+}
+.rachel {
+    background: url("../static/exec/rachel.jpg");
+}
+
+
+.exec-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.exec-grid div.exec-photo {
+    height: 200px;
+    width: 200px;
+    flex: 0 0 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-right: 15px solid white;
+    border-bottom: 15px solid white;
+}
+
+.overlay {
+    background-color: rgba(0,0,0,0.40);
+    opacity: 0;
+    height: 100%;
+    color: white;
+    font-size: 20px;
+    padding: 1em;
+    transition: opacity 0.5s;
+    text-align: center;
+    padding-top: 30%;
+}
+
+h3 {
+    color: white;
+}
+p {
+    color: #cccccc;
+}
+
+.overlay:hover {
+    opacity: 1;
+    transition: opacity 0.5s;
+
+}
+

@@ -7,6 +7,7 @@ import '../css/template_styles'
 import '../css/backgrounds'
 import '../css/inline-images'
 import '../css/markdown-theme'
+import '../css/execphotos'
 
 import LogoImg from '../static/logo.png';
 
