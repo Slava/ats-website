@@ -1,0 +1,13 @@
+#!/bin/bash
+
+
+echo -n "kerberos:"
+read kerberos
+kerberos="${kerberos// /}"
+
+npm install
+./node_modules/.bin/gatsby build
+
+scp -r public/* "$kerberos@athena.dialup.mit.edu:/mit/mitats/web_scripts/"
+
+
