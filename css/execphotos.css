@@ -37,6 +37,9 @@
 .rachel {
     background: url("../static/exec/rachel.jpg");
 }
+.kelvin {
+    background: url("../static/exec/kelvin.jpg");
+}
 
 
 .exec-grid {
@@ -68,16 +71,15 @@
     padding-top: 30%;
 }
 
-h3 {
-    color: white;
-}
-p {
-    color: #cccccc;
-}
-
 .overlay:hover {
     opacity: 1;
     transition: opacity 0.5s;
 
 }
 
+.exec-grid h3 {
+    color: white;
+}
+.exec-grid p {
+    color: #cccccc;
+}
